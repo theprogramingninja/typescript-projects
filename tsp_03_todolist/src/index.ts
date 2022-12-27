@@ -30,6 +30,7 @@ let doneList: List[] = [];
 let checkConfirm: boolean = false;
 
 do {
+	console.log("\n \n");
 	const choice = await inquirer.prompt([
 		{
 			type: "list",
