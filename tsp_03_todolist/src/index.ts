@@ -97,13 +97,13 @@ do {
 	]);
 	checkConfirm = isConfirm.confirm;
 	if (!checkConfirm) {
-		console.log(chalk.yellow("\n \n Thank you for Choosing Our ATM services"));
+		console.log(chalk.bold.yellow("\n \n Your Todo list\n"));
+		console.table(todoList);
+		console.log(chalk.bold.green("\n \n Done Task list\n"));
+		console.table(doneList);
+
+		console.log(
+			chalk.yellow("\n \n Thank you for Choosing Our TODO List services"),
+		);
 	}
 } while (checkConfirm);
-
-console.log(chalk.bold.yellow("\n \n Your Todo list\n"));
-console.table(todoList);
-console.log(chalk.bold.green("\n \n Done Task list\n"));
-console.table(doneList);
-
-console.log("Thank you for using our app");

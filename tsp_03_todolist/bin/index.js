@@ -17,6 +17,7 @@ let doneList = [];
 // declaring array with the type mention above
 let checkConfirm = false;
 do {
+    console.log("\n \n");
     const choice = await inquirer.prompt([
         {
             type: "list",
