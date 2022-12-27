@@ -1,3 +1,4 @@
+#! /usr/bin/env node
 /** @format */
 import inquirer from "inquirer";
 
@@ -37,7 +38,7 @@ if (userId === id && userPin === pin) {
 	const choice = await inquirer.prompt([
 		{
 			type: "list",
-			choices: ["Balance Inquiry", "Transfer Amount", "Withdraw,"],
+			choices: ["Balance Inquiry", "Transfer Amount", "Withdraw"],
 			name: "functions",
 			message: "Choose operation",
 		},
@@ -71,10 +72,10 @@ if (userId === id && userPin === pin) {
 				{
 					type: "input",
 					name: "amount",
-					message: "Please enter the amount to transfer : ",
+					message: "Please enter the amount to Withdraw : ",
 				},
 			]);
-			console.log(`balance before transfer : ${answers.user_balance}`);
+			console.log(`balance before withdraw : ${answers.user_balance}`);
 			if (answers.user_balance > withdraw.amount) {
 				answers.user_balance -= withdraw.amount;
 				console.log(`Your balance after withdraw : ${answers.user_balance}`);
