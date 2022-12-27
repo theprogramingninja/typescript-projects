@@ -1,6 +1,6 @@
 {
-	"name": "ts-02-atm",
-	"version": "2.0.0",
+	"name": "tsp_03_todolist",
+	"version": "1.0.0",
 	"description": "",
 	"main": "index.js",
 	"type": "module",
@@ -11,13 +11,14 @@
 	"bin": {
 		"multiply": "bin/index.js"
 	},
-	"author": "",
+	"author": "RRS",
 	"license": "ISC",
 	"dependencies": {
 		"@types/figlet": "^1.5.5",
 		"@types/inquirer": "^9.0.3",
 		"chalk": "^5.2.0",
 		"figlet": "^1.5.2",
-		"inquirer": "^9.1.4"
+		"inquirer": "^9.1.4",
+		"table": "^6.8.1"
 	}
 }
