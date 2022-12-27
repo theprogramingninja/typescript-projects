@@ -34,5 +34,4 @@ TypeScipt, Node.js and Inquirer.
     <li>mark task</li>
     </ol>
     <li>ask to perfrom operation again</li>
-
 </ol>
