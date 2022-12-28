@@ -11,7 +11,7 @@
 	"bin": {
 		"multiply": "bin/index.js"
 	},
-	"author": "",
+	"author": "RRS",
 	"license": "ISC",
 	"dependencies": {
 		"@types/inquirer": "^9.0.3",
