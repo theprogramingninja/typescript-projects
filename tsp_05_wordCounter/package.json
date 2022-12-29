@@ -1,6 +1,6 @@
 {
-	"name": "tsp_04_currencyconverter",
-	"version": "2.0.0",
+	"name": "tsp_05_wordcounter",
+	"version": "1.0.0",
 	"description": "",
 	"main": "index.js",
 	"type": "module",
@@ -11,17 +11,14 @@
 	"bin": {
 		"multiply": "bin/index.js"
 	},
+	"keywords": [],
 	"author": "RRS",
 	"license": "ISC",
 	"dependencies": {
 		"@types/figlet": "^1.5.5",
 		"@types/inquirer": "^9.0.3",
-		"@types/inquirer-autocomplete-prompt": "^3.0.0",
-		"axios": "^1.2.1",
 		"chalk": "^5.2.0",
 		"figlet": "^1.5.2",
-		"fuzzy": "^0.1.3",
-		"inquirer": "^9.1.4",
-		"inquirer-autocomplete-prompt": "^3.0.0"
+		"inquirer": "^9.1.4"
 	}
 }
