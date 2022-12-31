@@ -1,6 +1,8 @@
 #! /usr/bin/env node
 /** @format */
 import inquirer from "inquirer";
+import chalk from "chalk";
+import figlet from "figlet";
 
 let welcome: string = "Welcome To the Number Guessing Game \n\n\n";
 type Guess = {
@@ -12,7 +14,17 @@ let checkConfirm: boolean = false;
 let result: number = 0;
 let attempt: number = 0;
 
-console.log(welcome);
+console.log(
+	chalk.blue(
+		figlet.textSync("< Guessing Game >\n <  By RRS >", {
+			font: "Standard",
+			horizontalLayout: "default",
+			verticalLayout: "default",
+			width: 80,
+			whitespaceBreak: true,
+		}),
+	),
+);
 
 do {
 	let round: number = 0;
