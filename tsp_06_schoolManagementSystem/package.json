@@ -1,0 +1,17 @@
+{
+  "name": "tsp_06_schoolmanagementsystem",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"tsc && node bin/index.js"
+  },
+  "bin":{
+    "multiply":"bin/index.jss"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
